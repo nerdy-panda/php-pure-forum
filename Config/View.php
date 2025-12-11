@@ -1,0 +1,5 @@
+<?php
+const VIEW_DESTINATION = VIEW_DIR;
+const VIEW_DIRECTORY_SEPARATOR = ".";
+const COMPONENT_DIRECTORY = "Component";
+const PARTIAL_DIRECTORY = "Partial";

@@ -1,0 +1,42 @@
+{
+    "name": "nerdpanda/ticket-system",
+    "version": "1.0",
+    "homepage": "https://github.com/nerdpanda-ir",
+    "description": "the ticket system by php pure !!!",
+    "readme": "https://github.com/nerdpanda-ir/README.MD",
+    "keywords": ["php ticket","ticket","ticket system"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Your Name",
+            "email": "nerdpandabusiness@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "App/"
+        },
+        "files": [
+
+        ]
+    },
+    "autoload-dev": {
+
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^7.3"
+    } ,
+    "scripts": {
+        "app_version" :"./Console/Version.php"
+    },
+    "scripts-descriptions": {
+        "app_version" : "display application version"
+    },
+    "scripts-aliases": {
+        "app_version" : ["version"]
+    },
+    "require": {
+        "morilog/jalali": "^3.4",
+        "phpmailer/phpmailer": "^6.10"
+    }
+}

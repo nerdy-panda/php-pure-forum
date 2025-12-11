@@ -1,0 +1,5 @@
+<?php
+const ISSUE_PER_PAGE = 4 ;
+const ISSUE_MIN_LENGTH = 5 ;
+const ISSUE_FULL_NAME_MIN_LENGTH = 3 ;
+const ISSUE_FULL_NAME_MAX_LENGTH = 128 ;
